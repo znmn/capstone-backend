@@ -18,6 +18,10 @@ class L2 {
 	}
 }
 
+function round(value: number, decimals: number) {
+	return Number(Math.round(Number(value + "e" + decimals)) + "e-" + decimals);
+}
+
 export class Model {
 	private static instance: Model;
 	private models: Map<string, LayersModel>;
@@ -69,6 +73,6 @@ export class Model {
 
 		const max = Math.max(...result);
 		const index = result.indexOf(max);
-		return { plant, label: labels[index], confidence: max.toFixed(3) };
+		return { plant, label: labels[index], confidence: round(max, 3) };
 	}
 }
