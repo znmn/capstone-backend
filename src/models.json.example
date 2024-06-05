@@ -1,0 +1,67 @@
+[
+	{
+		"id": 1,
+		"name": "tomato",
+		"model": "URL/PATH HERE",
+		"labels": [
+			"Xanthomonas spp. & Pseudomonas syringae pv. tomato",
+			"Alternaria solani",
+			"healthy",
+			"Phytophthora infestans"
+		]
+	},
+	{
+		"id": 2,
+		"name": "corn",
+		"model": "URL/PATH HERE",
+		"labels": [
+			"Puccinia sorghi",
+			"Cercospora zeae-maydis",
+			"healthy",
+			"Setosphaeria turcica"
+		]
+	},
+	{
+		"id": 3,
+		"name": "potato",
+		"model": "URL/PATH HERE",
+		"labels": [
+			"Alternaria solani",
+			"healthy",
+			"Phytophthora infestans"
+		]
+	},
+	{
+		"id": 4,
+		"name": "grape",
+		"model": "URL/PATH HERE",
+		"labels": [
+			"Guignardia bidwellii",
+			"Phaeomoniella chlamydospora",
+			"healthy",
+			"Pseudocercospora vitis"
+		]
+	},
+	{
+		"id": 5,
+		"name": "apple",
+		"model": "URL/PATH HERE",
+		"labels": [
+			"Venturia inaequalis",
+			"Botryosphaeria obtusa",
+			"Gymnosporangium juniperi-virginianae",
+			"healthy"
+		]
+	},
+	{
+		"id": 6,
+		"name": "mango",
+		"model": "URL/PATH HERE",
+		"labels": [
+			"Colletotrichum gloeosporioides",
+			"Xanthomonas campestris pv. mangiferaeindicae",
+			"Lasiodiplodia theobromae",
+			"healthy"
+		]
+	}
+]
